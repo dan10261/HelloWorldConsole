@@ -1,0 +1,138 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MailSystem.NET/2.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/ActiveUp.Net.Common.dll": {},
+          "lib/ActiveUp.Net.Dns.dll": {},
+          "lib/ActiveUp.Net.Groupware.dll": {},
+          "lib/ActiveUp.Net.Imap4.dll": {},
+          "lib/ActiveUp.Net.Mail.dll": {},
+          "lib/ActiveUp.Net.Nntp.dll": {},
+          "lib/ActiveUp.Net.OpenPGP.dll": {},
+          "lib/ActiveUp.Net.Pop3.dll": {},
+          "lib/ActiveUp.Net.Smtp.dll": {},
+          "lib/ActiveUp.Net.WhoIs.dll": {}
+        },
+        "runtime": {
+          "lib/ActiveUp.Net.Common.dll": {},
+          "lib/ActiveUp.Net.Dns.dll": {},
+          "lib/ActiveUp.Net.Groupware.dll": {},
+          "lib/ActiveUp.Net.Imap4.dll": {},
+          "lib/ActiveUp.Net.Mail.dll": {},
+          "lib/ActiveUp.Net.Nntp.dll": {},
+          "lib/ActiveUp.Net.OpenPGP.dll": {},
+          "lib/ActiveUp.Net.Pop3.dll": {},
+          "lib/ActiveUp.Net.Smtp.dll": {},
+          "lib/ActiveUp.Net.WhoIs.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MailSystem.NET/2.0.1": {
+      "sha512": "ZIbL0InnWbhze/NJ1AA0rR6lMXPu+Oy1xbIbbnHTtb18vBTFNOGhMNf9BzTLLmvu061Bsdt4mQgtxt67YA4qpw==",
+      "type": "package",
+      "path": "mailsystem.net/2.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "documentation/COPYRIGHT.txt",
+        "documentation/Documentation.chm",
+        "documentation/LICENSE.txt",
+        "lib/ActiveUp.Net.Common.dll",
+        "lib/ActiveUp.Net.Dns.dll",
+        "lib/ActiveUp.Net.Groupware.dll",
+        "lib/ActiveUp.Net.Imap4.dll",
+        "lib/ActiveUp.Net.Mail.dll",
+        "lib/ActiveUp.Net.Nntp.dll",
+        "lib/ActiveUp.Net.OpenPGP.dll",
+        "lib/ActiveUp.Net.Pop3.dll",
+        "lib/ActiveUp.Net.Smtp.dll",
+        "lib/ActiveUp.Net.WhoIs.dll",
+        "mailsystem.net.2.0.1.nupkg.sha512",
+        "mailsystem.net.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "MailSystem.NET >= 2.0.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ddu10\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\ddu10\\source\\repos\\HelloWorldConsole\\ConsoleAppHelloWorld\\ConsoleAppHelloWorld\\ConsoleAppHelloWorld.csproj",
+      "projectName": "ConsoleAppHelloWorld",
+      "projectPath": "C:\\Users\\ddu10\\source\\repos\\HelloWorldConsole\\ConsoleAppHelloWorld\\ConsoleAppHelloWorld\\ConsoleAppHelloWorld.csproj",
+      "packagesPath": "C:\\Users\\ddu10\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ddu10\\source\\repos\\HelloWorldConsole\\ConsoleAppHelloWorld\\ConsoleAppHelloWorld\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\ddu10\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "MailSystem.NET": {
+            "target": "Package",
+            "version": "[2.0.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'MailSystem.NET 2.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "MailSystem.NET",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
